@@ -1,0 +1,53 @@
+
+  /* Defining Betway sports color 2019 scheme*/ 
+  :root {
+    /* Sport channel */	
+      --sportschannel: #00cc2c; /* sports */
+      
+      /* Darks */	
+      --dark0: #000000; /* black */
+      --dark1: #2c2c2c; /* charcoal */
+      --dark2: #333333; /* mineshaft */
+      --dark3: #444444; /* tundora */
+      --dark4: #656565; /* dovegrey */
+      --dark5: #999999; /* duskygrey */
+      --dark5b: #999999; /* duskygrey - Duplicate of above to since colors are not 1 to 1 match */
+      
+      /* Lights */	
+      --light0: #ffffff; /* white */
+      --light1: #f8f8f8; /* alabaster */
+      --light2: #eaeaea; /* gallery */
+      --light3: #c7c7c7; /* silver */
+    
+      
+      /* Errors, Alerts & Highlights */	
+      
+      --alert1: #ed1c24; /* vegas */
+      --alert2: #ffc421; /* plus */
+      --highlight1: #e5fae9; /* grannyapple */
+    }  
+    
+/* Defining Betway sports color 2018 scheme 
+  REMOVING THESE VARIABLES WILL SWITCH THE SCOREBOARD TO THE NEW COLORS */
+
+  :root {
+    /* Sport channel */	
+      --sportschannel: #00cc2c; /* sports */
+      
+      /* Darks */	
+      --dark0: #000000; 
+      --dark2: #333333;
+      --dark3: #484848;
+      --dark4: #727272; 
+      --dark5: #868686; 
+      --dark5b: #adadad;
+
+      /* Lights */	
+      --light0: #ffffff; 
+      --light1: #f5f5f5; 
+      --light3: #bbbbbb; 
+    
+      /* Errors, Alerts & Highlights */	
+      --alert2: #fed24d; 
+    }  
+/* END Defining Betway sports color 2018 scheme  */

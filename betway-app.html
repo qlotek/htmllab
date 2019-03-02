@@ -1,0 +1,83 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" style="background-color:#0F0F0F !important;">
+<head>
+    <meta charset="utf-8">
+    <title>Betway</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    
+
+<link rel="shortcut icon" size="144x144" href ="https://m-feature-combination.spinsport.ludologic.com/Resources/Betway/images/icons/144x144.png" type="image/x-icon">
+<link rel="shortcut icon" size="72x72" href ="https://m-feature-combination.spinsport.ludologic.com/Resources/Betway/images/icons/72x72.png" type="image/x-icon">
+<link rel="shortcut icon" size="57x57" href ="https://m-feature-combination.spinsport.ludologic.com/Resources/Betway/images/icons/57x57.png" type="image/x-icon">
+    <link rel="stylesheet" href ="https://m-feature-combination.spinsport.ludologic.com/Resources/Betway/css/stylesheet/get/Application?v=0.0.0.7611"/>
+<link rel="stylesheet" href ="https://m-feature-combination.spinsport.ludologic.com/Resources/Betway/css/stylesheet/get/Pages?v=0.0.0.7611"/>
+
+    
+    
+<meta property="og:image" itemprop="image" content="/Resources/Betway/images/icons/sports/152x152.png" />
+</head>
+<body class="tabletView" data-home-channel="sports" data-active-channel="sports" data-jurisdiction="UnitedKingdom" style="background-color:#0F0F0F !important;">
+
+    <div data-application-root></div>
+
+    
+
+
+
+<script data-initial-script src="https://m-feature-combination.spinsport.ludologic.com/Resources/Global/js/AceBootstrap.min.js?v=0.0.0.7611"></script>
+<script data-initial-script>
+    var url = createConfigurationResourceUrl("https://m-feature-combination.spinsport.ludologic.com/wapi/Configuration/sports.betway.com/en/sports/in-play/evt/3668516/?v=636856581987463884");
+    var requiredScripts = [url];
+
+    requiredScripts.push("https://m-feature-combination.spinsport.ludologic.com/Resources/script/en/DesktopApplication?v=0.0.0.7611");
+
+    Ace.BootStrap(requiredScripts, function () {
+        if (performanceMarkExists()) {
+            performance.mark("EXECUTION START");
+        }
+
+        Ace.SetConfiguration(ClientConfiguration);
+        Ace.LoadQueuedLibraries();
+
+        if (performanceMarkExists()) {
+            performance.mark("EXECUTION COMPLETE");
+        }
+    });
+
+    function createConfigurationResourceUrl(url) {
+        var queryParameters = getQueryParameters();
+
+        if (!url || !queryParameters) {
+            return url;
+        }
+
+        var seperator = getQueryStringSeperator(url);
+        return url + seperator + queryParameters;
+    }
+
+    function getQueryParameters() {
+        var queryParameters = location.search;
+        return queryParameters.substring(1, queryParameters.length);
+    }
+
+    function getQueryStringSeperator(url) {
+        if (url.indexOf('?') !== -1) {
+            return '&';
+        }
+        return '?'
+    }
+
+    function performanceMarkExists() {
+        return typeof performance !== 'undefined' && !!performance && !!performance.mark && typeof performance.mark === "function";
+    }
+
+</script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+   /************************************************/ 
+
+
+   /* Cray test */
+    .main-display {
+        font-style: italic;
+        text-transform: uppercase;
+        --dark0: blue;
+        --light0: red;  
+        --light1: fuchsia; 
+        --light3: green; 
+    }
+
+
+    .component {
+        @when (var(--context) = wide) {
+            float: left;
+        };
+    }
+
+
+
+
+
+   /************************************************/ 

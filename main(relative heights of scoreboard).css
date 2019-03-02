@@ -1,0 +1,168 @@
+/* position variables for SMALL screens (width <= 610px) */
+/*
+:root {
+    --full-width: 100vw;
+    --full-height: 25vw;
+    --horizontal-edge: 2.1vw;
+    --gap: 0.25vw;
+    --sets-width: 5.9vw;
+    --games-width: 5.9vw;
+    --two-sets-width: 11.8vw; 
+    --three-sets-width: 17.7vw;
+    --four-sets-width: 23.6vw;
+    --five-sets-width: 29.5vw;
+    --points-width: 8.2vw;
+    --display-height: 4.1vw;
+    --heading-top: 1.4vw;
+    --heading-bottom: 4.1vw;
+    --team-a-top: 4.8vw;
+    --team-height: 7.5vw;
+    --team-separator-height: 0.6vw;
+    --font-size: 1vw;
+    --status-icon-height: 2vw;
+    --flag-size: 3.8vw;
+    --server-ball-size: 1.6vw;
+    --previous-game-y: 21.5vw;
+    --player-min-width: 14vw;
+}
+*/
+
+/* position variables for LARGE screens (610px <= width) */
+
+/* @media (min-width:610px) {} */
+
+
+
+
+
+        --full-width: 100%;
+        --min-width: 324px;
+		--full-height: 81px;
+        --horizontal-edge: 7px;
+        --gap: 1px;
+        --sets-width: 19px;
+        --games-width: 19px;
+        --two-sets-width: 38px;
+        --three-sets-width: 58px;
+        --four-sets-width: 77px;
+        --five-sets-width: 96px;
+        --points-width: 27px;
+        --display-height: 13px;
+        --heading-top: 4px;
+        --heading-bottom: 13px;
+        --team-a-top: 15px;
+        --team-height: 25px;
+        --team-separator-height: 2px;
+        --font-size: 3px;
+        --status-icon-height: 6px;
+        --flag-size: 12px;
+        --server-ball-size: 5px;
+        --previous-game-y: 70px;
+        --player-min-width: 45px;
+        --scorcle-size: 48px;
+        --scorcle-title-padding: 8px;
+
+
+
+
+        --full-width: 100%;
+        --min-width: 324px;
+		--full-height: 81px;
+        --horizontal-edge: 7px;
+        --gap: 1px;
+        --sets-width: 19px;
+        --games-width: 19px;
+        --two-sets-width: 38px;
+        --three-sets-width: 58px;
+        --four-sets-width: 77px;
+        --five-sets-width: 96px;
+        --points-width: 27px;
+        --display-height: 14px;
+        --heading-top: 3px;
+        --heading-bottom: 13px;
+        --team-a-top: 15px;
+        --team-height: 25px;
+        --team-separator-height: 2px;
+        --font-size: 4px;
+        --status-icon-height: 6px;
+        --flag-size: 12px;
+        --server-ball-size: 5px;
+        --previous-game-y: 70px;
+        --player-min-width: 45px;
+        --scorcle-size: 48px;
+        --scorcle-title-padding: 8px;
+
+
+
+
+    :root {
+		--coefficient: 0.533; /* Multiplies below pixel values */
+        --full-width: 100%;
+        --min-width: calc(var(--coefficient) * 608)px;
+		--full-height: calc(var(--coefficient) * 152)px;
+        --horizontal-edge: calc(var(--coefficient) * 13)px;
+        --gap: calc(var(--coefficient) * 2)px;
+        --sets-width: calc(var(--coefficient) * 36)px;
+        --games-width: calc(var(--coefficient) * 36)px;
+        --two-sets-width: calc(var(--coefficient) * 72)px;
+        --three-sets-width: calc(var(--coefficient) * 108)px;
+        --four-sets-width: calc(var(--coefficient) * 144)px;
+        --five-sets-width: calc(var(--coefficient) * 180)px;
+        --points-width: calc(var(--coefficient) * 50)px;
+        --display-height: calc(var(--coefficient) * 25)px;
+        --heading-top: calc(var(--coefficient) * 8)px;
+        --heading-bottom: calc(var(--coefficient) * 25)px;
+        --team-a-top: calc(var(--coefficient) * 29)px;
+        --team-height: calc(var(--coefficient) * 46)px;
+        --team-separator-height: calc(var(--coefficient) * 4)px;
+        --font-size: calc(var(--coefficient) * 6)px;
+        --status-icon-height: calc(var(--coefficient) * 12)px;
+        --flag-size: calc(var(--coefficient) * 23)px;
+        --server-ball-size: calc(var(--coefficient) * 10)px;
+        --previous-game-y: calc(var(--coefficient) * 131)px;
+        --player-min-width: calc(var(--coefficient) * 85)px;
+    }
+    
+    
+    
+    
+        /* position variables for LARGE screens (610px <= width) */
+    
+    @media (min-width:610px) {
+
+:root {
+		--coefficient: 1.067; /* Multiplies below pixel values */
+        --full-width: 100%;
+        --min-width: calc(var(--coefficient) * 608)px;
+		--full-height: 162px;
+        --horizontal-edge: calc(var(--coefficient) * 13)px;
+        --gap: calc(var(--coefficient) * 2)px;
+        --sets-width: calc(var(--coefficient) * 36)px;
+        --games-width: calc(var(--coefficient) * 36)px;
+        --two-sets-width: calc(var(--coefficient) * 72)px;
+        --three-sets-width: calc(var(--coefficient) * 108)px;
+        --four-sets-width: calc(var(--coefficient) * 144)px;
+        --five-sets-width: calc(var(--coefficient) * 180)px;
+        --points-width: calc(var(--coefficient) * 50)px;
+        --display-height: calc(var(--coefficient) * 25)px;
+        --heading-top: calc(var(--coefficient) * 8)px;
+        --heading-bottom: calc(var(--coefficient) * 25)px;
+        --team-a-top: calc(var(--coefficient) * 29)px;
+        --team-height: calc(var(--coefficient) * 46)px;
+        --team-separator-height: calc(var(--coefficient) * 4)px;
+        --font-size: calc(var(--coefficient) * 6)px;
+        --status-icon-height: calc(var(--coefficient) * 12)px;
+        --flag-size: calc(var(--coefficient) * 23)px;
+        --server-ball-size: calc(var(--coefficient) * 10)px;
+        --previous-game-y: calc(var(--coefficient) * 131)px;
+        --player-min-width: calc(var(--coefficient) * 85)px;
+        --scorcle-size: calc(var(--coefficient) * 90)px;
+        --scorcle-title-padding: calc(var(--coefficient) * 8)px;
+	}
+
+} 
+
+
+
+/* */
+

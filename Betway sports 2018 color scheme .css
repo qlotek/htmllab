@@ -1,0 +1,15 @@
+   /* Betway sports 2018 color scheme 
+   These variables override the above 2019 (where applicable).
+   By removing them site will switch to 2019 scheme. */ 
+:root {
+    /* Sport channel */	
+      --sportschannel: #439539;  
+      /* Darks */	
+      --dark3: #484848;
+      --dark5: #adadad;
+      /* Lights */	
+      --light1: #f5f5f5; 
+      --light3: #bbbbbb; 
+      /* Errors, Alerts & Highlights */	
+      --alert2: #fed24d; 
+    } 
